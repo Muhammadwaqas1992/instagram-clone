@@ -1,0 +1,395 @@
+header{
+    display: flex;
+    word-spacing: 10px;
+    z-index: 1;
+    margin: 0px;
+    padding: 0pxs;
+    position: fixed;
+    background-color: white;
+}
+.logo{
+    width: 150px;
+    margin-top: -50px;
+}
+ul{
+    margin-top: 60px;
+    margin-left: -40px;
+}
+li{
+    list-style: none;
+    line-height: 3em;
+}
+ul li a{
+    font-size: 20px;
+    margin-left: -140px;
+    margin-top: 100px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black; 
+
+}
+ul li a img{
+    border: 0px solid black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-left: -6px;
+    margin-top: 10px;
+}
+.status{
+    margin-left: 200px;
+    display: flex;
+    position: relative;
+    font-family: sans-serif;
+    
+}
+.status .status1{
+    list-style: none;
+}
+.status .status1 img{
+    width: 60px;
+    height: 60px;
+    border: 1.5px solid;
+    border-radius: 50%;
+    border-color: red;
+    justify-self: flex-start;
+    margin-left: 100px;
+}
+.p1{
+    margin-top: -30px;
+    margin-left: 102px;
+}
+.status .status2{
+    list-style: none;
+}
+.status .status2 img{
+    width: 60px;
+    height: 60px;
+    border: 1.5px solid;
+    border-radius: 50%;
+    border-color: red;
+    justify-self: flex-start;
+    margin-left: 16px;
+}
+.p2{
+    margin-top: -30px;
+    margin-left: 22px;
+}
+.status .status3{
+    list-style: none;
+}
+.status .status3 img{
+    width: 60px;
+    height: 60px;
+    border: 1.5px solid;
+    border-radius: 50%;
+    border-color: red;
+    justify-self: flex-start;
+    margin-left: 16px;
+}
+.p3{
+    margin-top: -30px;
+    margin-left: 22px;
+}
+.status .status4{
+    list-style: none;
+}
+.status .status4 img{
+    width: 60px;
+    height: 60px;
+    border: 1.5px solid;
+    border-radius: 50%;
+    border-color: red;
+    justify-self: flex-start;
+    margin-left: 16px;
+}
+.p4{
+    margin-top: -30px;
+    margin-left: 22px;
+
+    
+}
+.status .status5{
+    list-style: none;
+}
+.status .status5 img{
+    width: 60px;
+    height: 60px;
+    border: 1.5px solid;
+    border-radius: 50%;
+    border-color: red;
+    justify-self: flex-start;
+    margin-left: 16px;
+}
+.p5{
+    margin-top: -30px;
+    margin-left: 22px;
+}
+.status .status6{
+    list-style: none;
+}
+.status .status6 img{
+    width: 60px;
+    height: 60px;
+    border: 1.5px solid;
+    border-radius: 50%;
+    border-color: red;
+    justify-self: flex-start;
+    margin-left: 16px;
+}
+.p6{
+    margin-top: -30px;
+    margin-left: 22px;
+}
+.page{
+    margin-left: 340px;
+}
+.page img{
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid red;
+    border-style: groove;
+    border-radius: 50%;
+}
+.page p{
+    font-family: sans-serif;
+    margin-top: -40px;
+    margin-left: 50px;
+}
+.page span{
+    color: grey;
+}
+.page .author{
+    margin-top: -30px;
+    font-size: small;
+    color: grey;
+}
+.jheel{
+    margin-left: 340px;
+}
+.jheel img{
+    border: 1px solid;
+    border-radius: 10px;
+}
+.page i{
+    margin-left: 450px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.commentbox{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-left: -550px;
+    gap: 15px;
+}
+.bookmark{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    margin-left: 270px;
+    font-size: 25px;
+}
+.written{
+    display: flex;
+    justify-content: center;
+    margin-left: -410px;
+    font-family: sans-serif;
+    color: rgb(83, 79, 79);
+    
+}
+.written .write span{
+    color: blue;
+    font-family: sans-serif;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    margin-left: -180px;
+}
+.section input{
+    border-style:hidden;
+    width: 470px;
+    font-size: 15px;
+    
+
+}
+.vid{
+    margin-left: 340px;
+}
+.vid img{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 480px;
+    height: 500px;
+}
+.written2{
+    display: flex;
+    justify-content: center;
+    margin-left: -260px;
+    font-family: sans-serif;
+    color: rgb(83, 79, 79);
+}
+.written2 .write span{
+    color: blue;
+    font-family: sans-serif;
+}
+.macaw{
+    margin-left: 340px;
+}
+.macaw img{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 480px;
+    height: 700px;
+}
+.written3{
+    display: flex;
+    justify-content: center;
+    margin-left: -325px;
+    font-family: sans-serif;
+    color: rgb(83, 79, 79);
+}
+.written3 .write span{
+    color: blue;
+    font-family: sans-serif;
+}
+.technology{
+    margin-left: 340px;
+}
+.technology img{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 480px;
+    height: 700px;
+}
+.written4{
+    display: flex;
+    justify-content: center;
+    margin-left: -325px;
+    font-family: sans-serif;
+    color: rgb(83, 79, 79);
+}
+.written4 .write span{
+    color: blue;
+    font-family: sans-serif;
+}
+.sideshow{
+    display: flex;
+    justify-content: right;
+    margin-top: -3530px;
+    margin-right: 300px;
+    gap: 20px;
+
+}
+.sideshow img{
+   
+    border: 0px solid black;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+   
+}
+.sideshow p{
+    font-family: sans-serif;
+    font-weight:400;
+    
+}
+div .name{
+    margin: 1010px;
+    margin-top: -12px;
+    margin-right: -30px;
+    margin-left: 930px;
+    font-family: sans-serif;
+    color: grey;
+}
+div .switch{
+    margin: 2000px;
+    margin-left: 1200px;
+    margin-top: -1050px;
+    font-family: sans-serif;
+    color: rgb(77, 77, 224);
+    font-size: small;
+    font-weight: 600;
+}
+.suggestion{
+    display: flex;
+    margin-left: 850px;
+    margin-top: -1950px;
+    font-family: sans-serif;
+    color: grey;
+    font-weight: 600;
+}
+.see{
+   margin: 1000px;
+   margin-top: -50px;
+   margin-left: 1200px;
+   margin-right: 10px;
+   font-size: small;
+   font-family: sans-serif;
+}
+.people img{
+    border: 0px solid black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;    
+    justify-content: flex-start;
+    margin-left: 850px;
+    margin-top: -980px;
+}
+.people-name p{
+    display: flex;
+    justify-content: relative;
+    margin-left: 890px;
+    margin-top: -30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(73, 68, 68);
+
+}
+.people-name-follow{
+    display: flex;
+    justify-content: relative;
+    margin-left: 890px;
+    margin-top: -30px;
+    font-family: sans-serif;
+    font-size: small;
+    color: rgb(73, 68, 68);
+
+}
+.people-name-follows{
+    display: flex;
+    justify-content: relative;
+    margin-left: 1200px;
+    margin-top: -45px;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: 600;
+    color: rgb(52, 63, 155);
+
+}
+.discription{
+    display: flex;
+    justify-content: relative;
+    margin-left: -390px;
+    margin-top: 100px;
+    font-family: sans-serif;
+    font-size: smaller;
+    font-weight: 600;
+    color: rgb(196, 200, 202);
+    
+
+}
+.discriptions{
+    display: flex;
+    justify-content: relative;
+    margin-left: -330px;
+    margin-top: 140px;
+    font-family: sans-serif;
+    font-size: smaller;
+    font-weight: 600;
+    color: rgb(196, 200, 202);
+    
+
+}
